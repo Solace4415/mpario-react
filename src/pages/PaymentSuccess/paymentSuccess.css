@@ -1,0 +1,89 @@
+.purchase {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(-15deg, transparent 50%, #fcf3db 50%);
+  background-repeat: no-repeat;
+  padding-top: 4rem;
+  position: relative;
+}
+
+.purchase-div {
+  background: white;
+  box-shadow: 0px 6px 10px rgba(33, 30, 67, 0.08);
+  padding: 30px 100px;
+}
+
+.purchase-div-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.purchase-div-icon div {
+  height: 60px;
+  width: 60px;
+  background: #ffffff;
+  box-shadow: 0px 6px 10px rgba(33, 30, 67, 0.08);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.purchase-icon {
+  height: 35px;
+  width: 35px;
+  position: relative;
+  color: #6fcf97;
+}
+
+.purchase-first {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 67px;
+  color: #4e598c;
+  margin-bottom: 10px;
+}
+
+.purchase-mid {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #4f4f4f;
+  margin-bottom: 20px;
+}
+
+.purchase-last {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration-line: underline;
+  color: #f4be62;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+  .purchase-div {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .purchase-div {
+    padding: 15px;
+  }
+
+  .purchase-first {
+    font-size: 25px;
+  }
+
+  .purchase-mid {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

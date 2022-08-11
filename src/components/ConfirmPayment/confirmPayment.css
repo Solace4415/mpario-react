@@ -1,0 +1,96 @@
+.confirmPayment-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.confirmPayment-head-th {
+  border: none;
+  -webkit-box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  width: 500px;
+  background: #fff;
+}
+
+.confirmPayment-head-price {
+  border-radius: 5px 5px 0px 0;
+  -webkit-box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 15px 60px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2f80ed;
+  color: #fff;
+}
+
+.confirmPayment-head-data {
+  padding: 20px 60px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 30px;
+  color: #4e598c;
+}
+
+.confirmPayment-head-shipping {
+  padding: 10px 60px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 30px;
+  color: #4e598c;
+}
+
+.confirmPayment-head-div {
+  border: 0.5px solid #817e9e;
+  margin: 20px 30px;
+}
+
+.confirmPayment-head-total {
+  border: 0.5px solid #817e9e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 40px;
+  padding: 5px 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 30px;
+  color: #4e598c;
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 640px) {
+  .confirmPayment-head-th {
+    width: 350px;
+  }
+
+  .confirmPayment-head-price {
+    padding: 20px 40px;
+  }
+
+  .confirmPayment-head-data {
+    padding: 20px 40px;
+  }
+
+  .confirmPayment-head-shipping {
+    padding: 10px 40px;
+  }
+
+  .confirmPayment-head-div {
+    margin: 20px 20px;
+  }
+
+  .confirmPayment-head-total {
+    margin: 0px 30px;
+    padding: 5px 10px;
+    margin-bottom: 25px;
+  }
+}

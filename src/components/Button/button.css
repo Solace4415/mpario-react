@@ -1,0 +1,49 @@
+.button-form-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 500px;
+  margin-top: 40px;
+}
+
+.button-btn {
+  background: linear-gradient(180deg, #f2c94c 0%, #f2994a 100%);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 50px;
+  cursor: pointer;
+  color: #fff;
+  margin-right: 70px;
+  font-size: 18px;
+}
+
+.button-btn:hover {
+  background: #fff;
+  color: #f2994a;
+  border: 1px solid #f2994a;
+}
+
+.button-form-btn p {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: #4e598c;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+  .button-form-btn {
+    width: 350px;
+    margin-top: 40px;
+  }
+
+  .button-btn {
+    padding: 10px 30px;
+  }
+
+  .button-form-btn p {
+    font-size: 16px;
+  }
+}

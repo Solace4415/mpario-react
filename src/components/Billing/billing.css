@@ -1,0 +1,89 @@
+
+.billing-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.billing-form-div {
+  margin-bottom: 20px;
+  width: 500px;
+}
+
+.billing-form-input {
+  margin-top: 10px;
+  background: #ffffff;
+  border: 1px solid #4e598c;
+  padding: 12px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.billing-form-div-half {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+}
+
+.billing-form-div-half-first {
+  margin-top: 10px;
+  width: 250px;
+  background: #ffffff;
+  border: 1px solid #4e598c;
+  padding: 12px;
+  border-radius: 5px;
+  margin-right: 25px;
+  text-align: center;
+  font-size: 17px;
+}
+
+.billing-form-div-half-mid {
+  margin-top: 10px;
+  width: 120px;
+  background: #ffffff;
+  border: 1px solid #4e598c;
+  padding: 12px;
+  border-radius: 5px;
+  margin-right: 25px;
+  text-align: center;
+  font-size: 17px;
+}
+.billing-form-div-half-last {
+  margin-top: 10px;
+  width: 80px;
+  background: #ffffff;
+  border: 1px solid #4e598c;
+  padding: 12px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 640px) {
+  .billing-form-div {
+    width: 350px;
+  }
+
+  .billing-form-div-half {
+    width: 350px;
+  }
+
+  .billing-form-div-half-first {
+    width: 180px;
+    font-size: 12px;
+    margin-right: 25px;
+  }
+  .billing-form-div-half-mid {
+    width: 65px;
+    font-size: 12px;
+    margin-right: 25px;
+  }
+  .billing-form-div-half-last {
+    width: 55px;
+    font-size: 12px;
+  }
+}

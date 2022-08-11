@@ -1,0 +1,71 @@
+
+.personal-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.personal-form-div {
+  margin-bottom: 20px;
+}
+
+.personal-form_p {
+  margin: 10px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #817e9e;
+}
+
+.personal-form-input {
+  margin-top: 10px;
+  width: 500px;
+  background: #ffffff;
+  border: 1px solid #4e598c;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.personal-form-div-half {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.personal-form-input-local {
+  margin-top: 10px;
+  width: 300px;
+  background: #ffffff;
+  border: 1px solid #4e598c;
+  padding: 12px;
+  border-radius: 5px;
+  margin-right: 50px;
+}
+
+.personal-form-input-state {
+  margin-top: 10px;
+  width: 150px;
+  background: #ffffff;
+  border: 1px solid #4e598c;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 640px) {
+  .personal-form-input {
+    width: 350px;
+  }
+
+  .personal-form-input-local {
+    width: 190px;
+    margin-right: 40px;
+  }
+
+  .personal-form-input-state {
+    width: 120px;
+  }
+}
