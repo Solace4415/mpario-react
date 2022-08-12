@@ -59,4 +59,8 @@
   .nav-body {
     width: 350px;
   }
+
+  .nav-body-p {
+    font-size: 14px;
+  }
 }
