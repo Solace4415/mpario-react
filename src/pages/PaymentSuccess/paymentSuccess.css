@@ -73,7 +73,7 @@
   }
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 380px) {
   .purchase-div {
     padding: 15px;
   }
