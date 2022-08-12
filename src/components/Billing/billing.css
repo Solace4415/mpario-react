@@ -65,25 +65,25 @@
 
 @media screen and (max-width: 640px) {
   .billing-form-div {
-    width: 350px;
+    width: 300px;
   }
 
   .billing-form-div-half {
-    width: 350px;
+    width: 300px;
   }
 
   .billing-form-div-half-first {
-    width: 180px;
-    font-size: 12px;
-    margin-right: 25px;
+    width: 150px;
+    font-size: 10px;
+    margin-right: 15px;
   }
   .billing-form-div-half-mid {
-    width: 65px;
-    font-size: 12px;
-    margin-right: 25px;
+    width: 70px;
+    font-size: 10px;
+    margin-right: 20px;
   }
   .billing-form-div-half-last {
-    width: 55px;
-    font-size: 12px;
+    width: 45px;
+    font-size: 10px;
   }
 }
